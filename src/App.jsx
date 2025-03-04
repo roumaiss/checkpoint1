@@ -1,12 +1,12 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import Image from "./Image"; // Your Image component that returns a URL
-import Name from "./Name";
-import Description from "./Description";
 import "bootstrap/dist/css/bootstrap.min.css"; // Importing Bootstrap's CSS for styling
-import Price from "./Price";
 import { Image as BootstrapImage, Col, Container, Row } from "react-bootstrap"; // Add Container and Row for responsive layout
+import Image from "./components/Image";
+import Description from "./components/Description";
+import Name from "./components/Name";
+import Price from "./components/Price";
 
 const firstName = "Maissa"; // Sample first name for dynamic rendering
 
